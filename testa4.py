@@ -1,0 +1,10 @@
+from a4 import *
+assert MatrixRank([[1,2,3],[2,5,4],[7,9,11]])  == 3, "RANK ERROR"
+assert MatrixRank([[1,2,3],[2,5,1]])  == 2, "RANK ERROR"
+assert MatrixRank([[1,3],[4,1],[2,2]])  == 2, "RANK ERROR"
+assert MatrixRank([[1,2],[3,4],[0,0]])  == 2, "RANK ERROR"
+assert MatrixRank([[1,3],[4,1]])  == 2, "RANK ERROR"
+assert MatrixRank([[7,13,4]])  == 1, "RANK ERROR"
+assert MatrixRank([[]])  == 0, "RANK ERROR"
+assert MatrixRank([[1,2,3],[0,0,0],[1,2,3],[0,0,0]])  == 1, "RANK ERROR"
+assert MatrixRank([[1,2,3],[0,0,0],[1,2,3]])  == 1, "RANK ERROR"
